@@ -18,6 +18,7 @@ setup(
     author_email='richrdkng@gmail.com',
     url='https://github.com/vgrt/vagrant-manager',
     license=license,
-    packages=find_packages(exclude=('docs', 'scripts', 'tests'))
+    test_suite='tests',
+    packages=find_packages(exclude=('docs', 'scripts', 'tests')),
 )
 
